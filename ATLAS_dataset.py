@@ -4,7 +4,7 @@ import torch
 from torch.utils.data.dataset import Dataset
 import os
 from torchvision import transforms
-from skimage.transform import resize
+from skimage.transform import resize#scikit-image
 import nibabel as nib
 from skimage import exposure
 
